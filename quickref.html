@@ -16,20 +16,19 @@
 <body class="page-background">
     <div class="page fontsize" data-size="fullscreen">
 
-        <!-- Movement section -->
-        <div id="section-movement" class="section-container">
+                <!-- Combat action section -->
+        <div id="section-combat" class="section-container">
             <div class="section-title">
-                Movement <span class="float-right">limited by movement speed</span>
+                Combat <span class="float-right">6sec/round</span>
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
-                    You can move at any time during your turn (before, after, or during actions).
+                    During combat you may do the following ...
                 </div>
-                <div class="section-row" id="basic-movement">
-                </div>
+                <div class="section-row" id="basic-combat"></div>
             </div>
         </div>
-
+        
         <!-- Action section -->
         <div id="section-action" class="section-container">
             <div class="section-title">
@@ -69,6 +68,20 @@
                     can occur on your turn or on someone else's.
                 </div>
                 <div class="section-row" id="basic-reactions"></div>
+            </div>
+        </div>
+
+        <!-- Movement section -->
+        <div id="section-movement" class="section-container">
+            <div class="section-title">
+                Movement <span class="float-right">limited by movement speed</span>
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    You can move at any time during your turn (before, after, or during actions).
+                </div>
+                <div class="section-row" id="basic-movement">
+                </div>
             </div>
         </div>
 
@@ -136,6 +149,7 @@
     </div>
 
     <!-- Data -->
+    <script type="text/javascript" src="js/data_combat.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_movement.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_action.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_bonusaction.js" charset="utf-8"></script>
